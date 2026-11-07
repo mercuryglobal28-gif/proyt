@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T10:16:03Z",
-  "expires_at": "2026-11-07T12:16:03Z",
+  "generated_at": "2026-11-07T16:31:26Z",
+  "expires_at": "2026-11-07T18:31:26Z",
   "status": "ok",
   "measurement": {
     "vantage": "github-actions",
@@ -13,22 +13,22 @@
     "direct_baseline": {
       "ok": true,
       "status": 204,
-      "latency_ms": 39.33,
-      "ttfb_ms": 39.31,
+      "latency_ms": 30.15,
+      "ttfb_ms": 30.12,
       "download_mbps": 0.0
     }
   },
   "stats": {
-    "discovered": 6604,
+    "discovered": 5207,
     "tested": 400,
-    "working": 6
+    "working": 14
   },
   "sources": [
     {
       "id": "proxifly",
       "url": "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt",
       "ok": true,
-      "accepted": 5611
+      "accepted": 4956
     },
     {
       "id": "speedx",
@@ -39,137 +39,316 @@
   ],
   "proxies": [
     {
-      "host": "43.240.67.101",
+      "host": "4.144.146.21",
       "port": 80,
       "protocol": "HTTP",
       "https_connect": true,
       "youtube_probe_ok": true,
-      "latency_ms": 974.67,
-      "ttfb_ms": 974.64,
+      "latency_ms": 654.94,
+      "ttfb_ms": 654.91,
       "latency_samples_ms": [
-        962.46,
-        986.88
+        653.29,
+        656.6
       ],
       "successful_samples": 2,
-      "download_mbps": 0.3626,
+      "download_mbps": 0.5225,
       "download_bytes": 65536,
       "speed_test_ok": true,
-      "checked_at": "2026-11-07T10:14:31Z",
-      "expires_at": "2026-11-07T12:14:31Z",
-      "sources": [
-        "speedx"
-      ]
-    },
-    {
-      "host": "130.110.103.245",
-      "port": 3128,
-      "protocol": "HTTP",
-      "https_connect": true,
-      "youtube_probe_ok": true,
-      "latency_ms": 1077.94,
-      "ttfb_ms": 1077.89,
-      "latency_samples_ms": [
-        1049.81,
-        1106.07
-      ],
-      "successful_samples": 2,
-      "download_mbps": 0.3832,
-      "download_bytes": 65536,
-      "speed_test_ok": true,
-      "checked_at": "2026-11-07T10:14:37Z",
-      "expires_at": "2026-11-07T12:14:37Z",
+      "checked_at": "2026-11-07T16:30:50Z",
+      "expires_at": "2026-11-07T18:30:50Z",
       "sources": [
         "proxifly",
         "speedx"
       ]
     },
     {
-      "host": "187.188.171.231",
-      "port": 10101,
+      "host": "77.246.110.129",
+      "port": 80,
       "protocol": "HTTP",
       "https_connect": true,
       "youtube_probe_ok": true,
-      "latency_ms": 1916.3,
-      "ttfb_ms": 1916.25,
+      "latency_ms": 694.18,
+      "ttfb_ms": 694.13,
       "latency_samples_ms": [
-        3444.96,
-        387.64
+        700.44,
+        687.92
       ],
       "successful_samples": 2,
-      "download_mbps": 1.1248,
+      "download_mbps": 0.1693,
       "download_bytes": 65536,
       "speed_test_ok": true,
-      "checked_at": "2026-11-07T10:14:39Z",
-      "expires_at": "2026-11-07T12:14:39Z",
+      "checked_at": "2026-11-07T16:30:49Z",
+      "expires_at": "2026-11-07T18:30:49Z",
       "sources": [
         "proxifly"
       ]
     },
     {
-      "host": "45.184.124.9",
-      "port": 1985,
+      "host": "176.111.37.5",
+      "port": 39811,
       "protocol": "HTTP",
       "https_connect": true,
       "youtube_probe_ok": true,
-      "latency_ms": 2547.05,
-      "ttfb_ms": 2546.99,
+      "latency_ms": 777.99,
+      "ttfb_ms": 777.94,
       "latency_samples_ms": [
-        1592.81,
-        3501.28
+        772.76,
+        783.22
       ],
       "successful_samples": 2,
-      "download_mbps": null,
-      "download_bytes": 0,
-      "speed_test_ok": false,
-      "checked_at": "2026-11-07T10:14:51Z",
-      "expires_at": "2026-11-07T12:14:51Z",
-      "sources": [
-        "proxifly"
-      ]
-    },
-    {
-      "host": "90.156.160.234",
-      "port": 3128,
-      "protocol": "HTTP",
-      "https_connect": true,
-      "youtube_probe_ok": true,
-      "latency_ms": 2859.4,
-      "ttfb_ms": 2859.35,
-      "latency_samples_ms": [
-        2452.81,
-        3266.0
-      ],
-      "successful_samples": 2,
-      "download_mbps": null,
-      "download_bytes": 0,
-      "speed_test_ok": false,
-      "checked_at": "2026-11-07T10:15:05Z",
-      "expires_at": "2026-11-07T12:15:05Z",
+      "download_mbps": 0.5209,
+      "download_bytes": 65536,
+      "speed_test_ok": true,
+      "checked_at": "2026-11-07T16:29:46Z",
+      "expires_at": "2026-11-07T18:29:46Z",
       "sources": [
         "proxifly",
         "speedx"
       ]
     },
     {
-      "host": "200.31.12.189",
+      "host": "185.174.80.7",
+      "port": 3128,
+      "protocol": "HTTP",
+      "https_connect": true,
+      "youtube_probe_ok": true,
+      "latency_ms": 934.1,
+      "ttfb_ms": 934.03,
+      "latency_samples_ms": [
+        946.08,
+        922.12
+      ],
+      "successful_samples": 2,
+      "download_mbps": null,
+      "download_bytes": 0,
+      "speed_test_ok": false,
+      "checked_at": "2026-11-07T16:30:36Z",
+      "expires_at": "2026-11-07T18:30:36Z",
+      "sources": [
+        "proxifly"
+      ]
+    },
+    {
+      "host": "184.75.221.82",
+      "port": 3118,
+      "protocol": "HTTP",
+      "https_connect": true,
+      "youtube_probe_ok": true,
+      "latency_ms": 1326.2,
+      "ttfb_ms": 1326.15,
+      "latency_samples_ms": [
+        2319.9,
+        332.49
+      ],
+      "successful_samples": 2,
+      "download_mbps": 0.8678,
+      "download_bytes": 65536,
+      "speed_test_ok": true,
+      "checked_at": "2026-11-07T16:30:40Z",
+      "expires_at": "2026-11-07T18:30:40Z",
+      "sources": [
+        "proxifly",
+        "speedx"
+      ]
+    },
+    {
+      "host": "103.122.67.91",
+      "port": 8080,
+      "protocol": "HTTP",
+      "https_connect": true,
+      "youtube_probe_ok": true,
+      "latency_ms": 1344.26,
+      "ttfb_ms": 1344.2,
+      "latency_samples_ms": [
+        1343.5,
+        1345.03
+      ],
+      "successful_samples": 2,
+      "download_mbps": null,
+      "download_bytes": 0,
+      "speed_test_ok": false,
+      "checked_at": "2026-11-07T16:29:55Z",
+      "expires_at": "2026-11-07T18:29:55Z",
+      "sources": [
+        "proxifly"
+      ]
+    },
+    {
+      "host": "119.93.207.214",
+      "port": 8082,
+      "protocol": "HTTP",
+      "https_connect": true,
+      "youtube_probe_ok": true,
+      "latency_ms": 1543.34,
+      "ttfb_ms": 1543.29,
+      "latency_samples_ms": [
+        1036.32,
+        2050.36
+      ],
+      "successful_samples": 2,
+      "download_mbps": 0.1123,
+      "download_bytes": 65536,
+      "speed_test_ok": true,
+      "checked_at": "2026-11-07T16:30:31Z",
+      "expires_at": "2026-11-07T18:30:31Z",
+      "sources": [
+        "proxifly"
+      ]
+    },
+    {
+      "host": "45.195.249.146",
+      "port": 8080,
+      "protocol": "HTTP",
+      "https_connect": true,
+      "youtube_probe_ok": true,
+      "latency_ms": 1636.44,
+      "ttfb_ms": 1636.38,
+      "latency_samples_ms": [
+        2182.35,
+        1090.53
+      ],
+      "successful_samples": 2,
+      "download_mbps": null,
+      "download_bytes": 0,
+      "speed_test_ok": false,
+      "checked_at": "2026-11-07T16:30:03Z",
+      "expires_at": "2026-11-07T18:30:03Z",
+      "sources": [
+        "proxifly",
+        "speedx"
+      ]
+    },
+    {
+      "host": "38.121.212.134",
       "port": 999,
       "protocol": "HTTP",
       "https_connect": true,
       "youtube_probe_ok": true,
-      "latency_ms": 3025.41,
-      "ttfb_ms": 3025.37,
+      "latency_ms": 2017.22,
+      "ttfb_ms": 2017.16,
       "latency_samples_ms": [
-        2997.36,
-        3053.46
+        2413.06,
+        1621.38
       ],
       "successful_samples": 2,
       "download_mbps": null,
       "download_bytes": 0,
       "speed_test_ok": false,
-      "checked_at": "2026-11-07T10:14:57Z",
-      "expires_at": "2026-11-07T12:14:57Z",
+      "checked_at": "2026-11-07T16:29:56Z",
+      "expires_at": "2026-11-07T18:29:56Z",
       "sources": [
+        "proxifly",
         "speedx"
+      ]
+    },
+    {
+      "host": "120.28.82.207",
+      "port": 8082,
+      "protocol": "HTTP",
+      "https_connect": true,
+      "youtube_probe_ok": true,
+      "latency_ms": 2046.98,
+      "ttfb_ms": 2046.9,
+      "latency_samples_ms": [
+        3066.05,
+        1027.9
+      ],
+      "successful_samples": 2,
+      "download_mbps": 0.1195,
+      "download_bytes": 65536,
+      "speed_test_ok": true,
+      "checked_at": "2026-11-07T16:29:45Z",
+      "expires_at": "2026-11-07T18:29:45Z",
+      "sources": [
+        "proxifly"
+      ]
+    },
+    {
+      "host": "190.60.61.54",
+      "port": 999,
+      "protocol": "HTTP",
+      "https_connect": true,
+      "youtube_probe_ok": true,
+      "latency_ms": 2464.05,
+      "ttfb_ms": 2463.97,
+      "latency_samples_ms": [
+        1849.46,
+        3078.63
+      ],
+      "successful_samples": 2,
+      "download_mbps": 0.1883,
+      "download_bytes": 65536,
+      "speed_test_ok": true,
+      "checked_at": "2026-11-07T16:30:52Z",
+      "expires_at": "2026-11-07T18:30:52Z",
+      "sources": [
+        "proxifly"
+      ]
+    },
+    {
+      "host": "181.78.195.136",
+      "port": 999,
+      "protocol": "HTTP",
+      "https_connect": true,
+      "youtube_probe_ok": true,
+      "latency_ms": 2528.49,
+      "ttfb_ms": 2528.43,
+      "latency_samples_ms": [
+        1974.61,
+        3082.38
+      ],
+      "successful_samples": 2,
+      "download_mbps": 0.1959,
+      "download_bytes": 65536,
+      "speed_test_ok": true,
+      "checked_at": "2026-11-07T16:29:54Z",
+      "expires_at": "2026-11-07T18:29:54Z",
+      "sources": [
+        "proxifly"
+      ]
+    },
+    {
+      "host": "103.150.115.186",
+      "port": 8080,
+      "protocol": "HTTP",
+      "https_connect": true,
+      "youtube_probe_ok": true,
+      "latency_ms": 3117.22,
+      "ttfb_ms": 3117.15,
+      "latency_samples_ms": [
+        2081.09,
+        4153.34
+      ],
+      "successful_samples": 2,
+      "download_mbps": 0.2395,
+      "download_bytes": 65536,
+      "speed_test_ok": true,
+      "checked_at": "2026-11-07T16:31:15Z",
+      "expires_at": "2026-11-07T18:31:15Z",
+      "sources": [
+        "proxifly"
+      ]
+    },
+    {
+      "host": "200.126.94.179",
+      "port": 999,
+      "protocol": "HTTP",
+      "https_connect": true,
+      "youtube_probe_ok": true,
+      "latency_ms": 3554.32,
+      "ttfb_ms": 3554.26,
+      "latency_samples_ms": [
+        3000.39,
+        4108.26
+      ],
+      "successful_samples": 2,
+      "download_mbps": 0.1192,
+      "download_bytes": 65536,
+      "speed_test_ok": true,
+      "checked_at": "2026-11-07T16:30:11Z",
+      "expires_at": "2026-11-07T18:30:11Z",
+      "sources": [
+        "proxifly"
       ]
     }
   ]
